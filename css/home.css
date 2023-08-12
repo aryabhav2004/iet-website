@@ -54,10 +54,13 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   /* Darken the overlay */
 }
-
+.bgcolor.scrolled{
+    background-color:#221524;
+}
 .navbar {
   background-color: rgba(0, 0, 0, 0.1);
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 9999;
   /* Set a high z-index value */
 }
@@ -329,6 +332,10 @@ body {
   }
 }
 @media (max-width:600px) {
+  .navbar{
+    position: fixed;
+    width: 100%;
+  }
   .col-md-12 h1 {
     font-size: 40px;
     color: #fff;
