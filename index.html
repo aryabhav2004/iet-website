@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IET_Logo.svg/1200px-IET_Logo.svg.png"
     type="image/x-icon">
@@ -35,9 +36,9 @@
     </video>
     <div class="overlay"></div>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#homepage">
             <img src="https://ietbotson.co/images/IET%20MPSTME%20Logo.png" alt="Logo">
           </a>
           <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -99,7 +100,11 @@
       <div class="all-text">
         <h4>About Us</h4>
         <h1>A House of Creativity and Intelligence</h1>
-        <p>IET MPSTME is a student chapter of the Institute of Engineering and Technology (IET) London, and is a community that organises events across the year to encourage technological innovation within Mukesh Patel School of Technology, Management and Engineering (MPSTME), NMIMS. Our efforts range from bot-making workshops to sessions by experts on current digital trends, along with our annual hackathon ‘Hack ‘n’ Code’. 
+        <p>The Institution of Engineering and Technology (IET) is a respected professional organization focused
+          on advancing engineering and technology worldwide. With a long history and a commitment to
+          excellence, the IET plays a vital role in promoting innovation and knowledge sharing among engineers
+          and technologists. Through various initiatives and programs, the IET inspires and empowers
+          individuals in the engineering community, driving advancements that contribute to societal progress.
         </p>
         <div class="btn1">
           <button class="button1"> KNOW MORE
@@ -211,7 +216,8 @@
           <li>Photography</li>
         </ul>
         <div class="btn1">
-          <a href="https://forms.gle/R9fRNEjfC346VQmC7" target="_blank">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScShVoR9Ctoq3Z4-Lq8q5Jgy7ywAIr5SEHETHQhiKtC2_gWLg/closedform"
+            target="_blank">
             <button class="button2">REGISTER NOW</button>
           </a>
 
@@ -296,6 +302,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled',$(this).scrollTop()>680);
+      });
+      
+    </script>
     <script>
 
       document.querySelector('.scrolldown').addEventListener('click', function () {
