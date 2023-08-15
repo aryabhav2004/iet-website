@@ -82,3 +82,36 @@
     width: 100%;
   }
 }
+@media (orientation: landscape) and (max-width: 767px)
+{
+  .gallery{
+    display: flex;
+    padding: 20px 35px;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+}
+@media (orientation: landscape) and (max-width: 600px)
+{
+  .gallery{
+    display: flex;
+    padding: 20px 35px;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+}
+@media (orientation: landscape) and (max-width: 900px)
+{
+  .gallery{
+    display: flex;
+    padding: 20px 35px;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+}

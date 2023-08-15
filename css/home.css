@@ -277,6 +277,13 @@ body {
 }
 
 @media (max-width:700px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    /* Set a high z-index value */
+  }
   body {
     overflow-x: hidden;
   }
@@ -326,6 +333,13 @@ body {
   }
 }
 @media (max-width:900px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    /* Set a high z-index value */
+  }
   .col-md-12 h1 {
     font-size: 55px;
     color: #fff;
@@ -342,5 +356,45 @@ body {
   }
   .intro-desc span{
     font-size: 20px;
+  }
+}
+/* Add these media queries to adjust the styling for landscape mode */
+@media (orientation: landscape) and (max-width: 767px) {
+  .col-md-12 h1 {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+
+  .intro-desc span {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  .scrolldown
+  {
+    display: none;
+  }
+}
+@media (orientation: landscape) and (max-width: 600px) {
+  .col-md-12 h1 {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+
+  .intro-desc span {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  .scrolldown
+  {
+    display: none;
+  }
+}
+@media (orientation: landscape) and (max-width: 900px) {
+  .col-md-12 h1 {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+
+  .intro-desc span {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  .scrolldown
+  {
+    display: none;
   }
 }
