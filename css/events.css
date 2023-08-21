@@ -105,12 +105,27 @@
 
   .box {
     width: 41vh;
-    height: 70vh;
+    height: 75vh;
   }
 
   .container-event {
     gap: 10px;
   }
+
+}
+
+@media (max-width: 650px) {
+  .box {
+    width: 41vh;
+    height: 75vh;
+  }
+
+  .image3 img {
+    max-width: 100%;
+    height: 45vh;
+    object-fit: fill;
+  }
+
 
 }
 
@@ -178,13 +193,17 @@
   background: #3a0ca3;
   transition: background 0s;
 }
+
 @media (orientation: landscape) and (max-width: 767px) {
   .container-event {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the boxes horizontally */
-    gap: 20px; /* Add some space between the boxes */
-    padding: 20px; /* Add some space around the boxes */
+    align-items: center;
+    /* Center the boxes horizontally */
+    gap: 20px;
+    /* Add some space between the boxes */
+    padding: 20px;
+    /* Add some space around the boxes */
   }
 
   .box {
@@ -194,7 +213,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px auto; /* Center the box horizontally */
+    margin: 10px auto;
+    /* Center the box horizontally */
     border: 0.5px solid rgb(112, 104, 104);
     margin-bottom: 50px;
   }
@@ -210,9 +230,12 @@
   .container-event {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the boxes horizontally */
-    gap: 20px; /* Add some space between the boxes */
-    padding: 20px; /* Add some space around the boxes */
+    align-items: center;
+    /* Center the boxes horizontally */
+    gap: 20px;
+    /* Add some space between the boxes */
+    padding: 20px;
+    /* Add some space around the boxes */
   }
 
   .box {
@@ -222,7 +245,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px auto; /* Center the box horizontally */
+    margin: 10px auto;
+    /* Center the box horizontally */
     border: 0.5px solid rgb(112, 104, 104);
     margin-bottom: 50px;
   }
@@ -233,13 +257,17 @@
     object-fit: fill;
   }
 }
+
 @media (orientation: landscape) and (max-width: 600px) {
   .container-event {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the boxes horizontally */
-    gap: 20px; /* Add some space between the boxes */
-    padding: 20px; /* Add some space around the boxes */
+    align-items: center;
+    /* Center the boxes horizontally */
+    gap: 20px;
+    /* Add some space between the boxes */
+    padding: 20px;
+    /* Add some space around the boxes */
   }
 
   .box {
@@ -249,7 +277,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px auto; /* Center the box horizontally */
+    margin: 10px auto;
+    /* Center the box horizontally */
     border: 0.5px solid rgb(112, 104, 104);
     margin-bottom: 50px;
   }
