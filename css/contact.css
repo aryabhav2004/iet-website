@@ -246,7 +246,7 @@
   }
 
   .screen-body-item {
-    padding: 30px;
+    padding: 10px;
   }
 
   .app-title {
@@ -256,6 +256,4 @@
   .app-contact {
     font-size: 8px;
   }
-}
-}
 }
