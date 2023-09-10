@@ -6,19 +6,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  gap: 20px; /* Adjust the gap as needed */
 }
 
 .box {
-  width: 44vh;
-  height: 80vh;
+  width: 330px; /* Set the width in pixels */
+  height: 550px; /* Set the height in pixels */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 10px;
   border: 0.5px solid rgb(112, 104, 104);
-  margin-bottom: 50px;
+  margin-bottom: 20px; /* Adjust the margin as needed */
 }
 
 .top-box {
@@ -36,13 +36,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
   /* Add padding-top to create space between top and h3 */
 }
 
 .image3 img {
   max-width: 100%;
-  height: 48vh;
+  height: 330px; /* Set the height in pixels */
   object-fit: fill;
 }
 
@@ -65,86 +65,71 @@
   color: #9C67AB;
   font-weight: 700;
   margin-bottom: 20px;
-
 }
-
-@media (max-width: 1200px) {
-  .bottom-box h3 {
-    font-family: 'Dosis';
-    font-size: 20px;
-    margin: 0;
-    /* Reset margin */
-  }
-
-  .bottom-box p {
-    font-family: 'Nunito';
-    font-size: 15px;
-    margin: 0;
-    /* Reset margin */
+@media (max-width: 1000px)
+{
+  .container-event{
+    display: block;
   }
 }
-
-@media (max-width: 768px) {
-  .bottom-box h3 {
-    font-family: 'Dosis';
-    font-size: 30px;
-    margin: 0;
-    /* Reset margin */
-  }
-
-  .bottom-box p {
-    font-family: 'Nunito';
-    font-size: 20px;
-    margin: 0;
-    /* Reset margin */
-  }
-
-  .eventspage {
-    height: auto;
-  }
-
+@media (max-width: 800px) {
   .box {
-    width: 41vh;
-    height: 75vh;
+    width: 330px; /* Adjust the width for smaller screens */
+    height: 550px; /* Adjust the height for smaller screens */
   }
-
-  .container-event {
-    gap: 10px;
-  }
-
+  
+.image3 img {
+  max-width: 100%;
+  height: 330px; /* Set the height in pixels */
+  object-fit: fill;
+}
 }
 
 @media (max-width: 650px) {
   .box {
-    width: 41vh;
-    height: 75vh;
+    width: 330px; /* Adjust the width for smaller screens */
+    height: 550px; /* Adjust the height for smaller screens */
   }
 
   .image3 img {
-    max-width: 100%;
-    height: 45vh;
-    object-fit: fill;
+    height: 330px; /* Adjust the image height for smaller screens */
   }
-
-
 }
 
-@media (max-width: 560px) {
+@media (max-width: 400px) {
+  .box {
+    width: 300px; /* Adjust the width for smaller screens */
+    height: 500px; /* Adjust the height for smaller screens */
+  }
+
+  .image3 img {
+    height: 300px; /* Adjust the image height for smaller screens */
+  }
   .bottom-box h3 {
-    font-family: 'Dosis';
-    font-size: 30px;
-    margin: 0;
-    /* Reset margin */
+    font-size: 25px; /* Adjust the font size for smaller screens */
   }
 
   .bottom-box p {
-    font-family: 'Nunito';
-    font-size: 15px;
-    margin: 0;
-    /* Reset margin */
+    font-size: 15px; /* Adjust the font size for smaller screens */
   }
 }
+@media (max-width: 400px) {
+  .box {
+    width: 260px; /* Adjust the width for smaller screens */
+    height: 480px; /* Adjust the height for smaller screens */
+  }
 
+  .image3 img {
+    height: 290px; /* Adjust the image height for smaller screens */
+  }
+  .bottom-box h3 {
+    font-size: 25px; /* Adjust the font size for smaller screens */
+  }
+
+  .bottom-box p {
+    font-size: 15px; /* Adjust the font size for smaller screens */
+  }
+}
 /* .about-.about-button CSS */
 .about-button {
   --color: #560bad;
@@ -192,100 +177,4 @@
 .about-button:active:before {
   background: #3a0ca3;
   transition: background 0s;
-}
-
-@media (orientation: landscape) and (max-width: 767px) {
-  .container-event {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center the boxes horizontally */
-    gap: 20px;
-    /* Add some space between the boxes */
-    padding: 20px;
-    /* Add some space around the boxes */
-  }
-
-  .box {
-    width: 88vh;
-    height: 160vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    /* Center the box horizontally */
-    border: 0.5px solid rgb(112, 104, 104);
-    margin-bottom: 50px;
-  }
-
-  .image3 img {
-    max-width: 100%;
-    height: 96vh;
-    object-fit: fill;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 900px) {
-  .container-event {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center the boxes horizontally */
-    gap: 20px;
-    /* Add some space between the boxes */
-    padding: 20px;
-    /* Add some space around the boxes */
-  }
-
-  .box {
-    width: 88vh;
-    height: 160vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    /* Center the box horizontally */
-    border: 0.5px solid rgb(112, 104, 104);
-    margin-bottom: 50px;
-  }
-
-  .image3 img {
-    max-width: 100%;
-    height: 96vh;
-    object-fit: fill;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 600px) {
-  .container-event {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center the boxes horizontally */
-    gap: 20px;
-    /* Add some space between the boxes */
-    padding: 20px;
-    /* Add some space around the boxes */
-  }
-
-  .box {
-    width: 88vh;
-    height: 160vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    /* Center the box horizontally */
-    border: 0.5px solid rgb(112, 104, 104);
-    margin-bottom: 50px;
-  }
-
-  .image3 img {
-    max-width: 100%;
-    height: 96vh;
-    object-fit: fill;
-  }
 }
