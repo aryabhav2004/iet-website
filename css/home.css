@@ -6,9 +6,9 @@ body {
 }
 
 .navbar-brand img {
-  max-width: 160px;
+  max-width: 130px;
   /* Adjust the maximum width of the logo */
-  max-height: 80px;
+  max-height: 45px;
   /* Adjust the maximum height of the logo */
 }
 
