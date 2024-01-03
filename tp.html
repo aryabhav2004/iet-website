@@ -2,144 +2,371 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BOTSON</title>
-  <link rel="stylesheet" href="css/faq.css" />
-  <link rel="stylesheet" href="background_style.css" />
-  <script src="css/faq.js" defer></script>
-  <link rel="icon" href="./images/BOTSON Logo.png" type="image/icon type" sizes="96x96">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="icon" href="images/iet_logo (2).png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Belanosima&family=Dosis:wght@200&family=Geologica:wght@700&family=Merriweather+Sans:wght@700&family=Nunito&family=Odibee+Sans&family=PT+Sans&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/about1.css">
+  <link rel="stylesheet" href="css/events.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/register.css">
+  <script src="css/gallery.js" defer></script>
+  <title>IET Mpstme</title>
 </head>
 
 <body>
- 
-    <!--  -->
-    <!-- FAQs -->
-    <!--  -->
-    <div class="faq-drop">
-      <center><button class="accordion">What is Botson?</button>
-        <div class="panel">
-          <p>BOTSON is IET MPSTME's flagship event conducted every year, that allows participants to build a fully functional 4-wheeled Bluetooth controlled obstacle detecting robot using the Arduino Uno microprocessor.</p>
+  <div id="homepage">
+    <video autoplay loop muted>
+      <source src="images/video_home_1.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor">
+        <div class="container">
+          <a class="navbar-brand" href="#homepage">
+            <img src="images/iet_logo.png" alt="Logo">
+          </a>
+          <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <div class="home1"><a class="nav-link" href="#homepage">Home</a></div>
+              </li>
+              <li class="nav-item">
+                <div class="about1"><a class="nav-link" href="#aboutpage">About</a></div>
+              </li>
+              <li class="nav-item">
+                <div class="event1"><a class="nav-link" href="#event1">Events</a></div>
+              </li>
+              <li class="nav-item">
+                <div class="contact1"><a class="nav-link" href="#contactpage">Contact Us</a></div>
+              </li>
+              <li class="nav-item">
+                <div class="#aboutpage1"><a class="nav-link" href="index1.html">Botson 8.0</a></div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </header>
 
-        <button class="accordion">Is BOTSON conducted every year?</button>
-        <div class="panel">
-          <p>Yes! BOTSON is conducted every year, and this year, we are in our seventh edition.</p>
+    <div class="col-md-12">
+      <div id=text100>
+        <h1 style="color: #ffffff; font-family: dosis;">Welcome to IET MPSTME</h1>
+      </div>
+      <h1 style="color: #ffffff; font-family: dosis">On Campus</h1>
+      <p class="intro-desc">
+        <span style="font-family: dosis">Institution of Engineering and Technology</span>
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ietmpstme/?igshid=MzRlODBiNWFlZA%3D%3D" class="instagram" title="Instagram"
+          target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://m.facebook.com/ietmpstme/" class="facebook" title="Facebook" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://youtube.com/@ietmpstmeoncampus3208" class="github" title="GitHub" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a href="https://in.linkedin.com/company/iet-mpstme" class="linkedin" title="linkedin" target="_blank"><i
+            class="fab fa-linkedin-in"></i></i></a>
+      </div>
+      <div class="scrolldown" style="--color: skyblue">
+        <div class="chevrons">
+          <div class="chevrondown"></div>
+          <div class="chevrondown"></div>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <button class="accordion">What kind of bot is built in the event?</button>
-        <div class="panel">
-          <p>It is a 4 wheeled robot. It will have bluetooth control and obstacle detection features.</p>
+  <!-- About Us Page -->
+  <section class="about" id="aboutpage">
+    <div class="main">
+      <img src="images/collage.jpeg" alt="">
+      <div class="all-text">
+        <h4>About Us</h4>
+        <h1>A House of Creativity and Intelligence</h1>
+        <p>The Institution of Engineering and Technology (IET) is a respected professional organization focused
+          on advancing engineering and technology worldwide. With a long history and a commitment to
+          excellence, the IET plays a vital role in promoting innovation and knowledge sharing among engineers
+          and technologists. Through various initiatives and programs, the IET inspires and empowers
+          individuals in the engineering community, driving advancements that contribute to societal progress.
+        </p>
+        <div class="btn1">
+          <button class="button1"> KNOW MORE
+          </button>
         </div>
-
-        <button class="accordion">Is BOTSON 7.0 going to be conducted offline? 
-</button>
-        <div class="panel">
-          <p>Yes! The event will be conducted in the Old Mukesh Patel Building.</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="eventspage" id="event1">
+    <center>
+      <h1 class="events-title">Our Events</h1>
+    </center>
+    <br>
+    <center><div class="container-event">
+      <div class="box">
+        <div class="top-box">
+          <div class="image3"><img src="images/ietalks.png" alt="Image" width="330px" height="330px"></div>
         </div>
-
-        <button class="accordion">What is the event duration?</button>
-        <div class="panel">
-          <p>The event will be conducted on 15th and 16th October, Saturday and Sunday. It will be conducted from 4 PM to 7 PM on Saturday where the parts of the bot and coding will be explained and tested, and 10 AM to 7PM on Sunday, when the main bot will be built.</p>
+        <div class="bottom-box">
+          <h3>IETalks</h3>
+          <br>
+          <p>10 Jan | MPSTME</p>
+          <a href="https://forms.gle/VKd4HdgsyyCmtB18A"><button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Open</button></a>
         </div>
-
-        <button class="accordion">Are there any breaks during the event?</button>
-        <div class="panel">
-          <p>Yes. There will be regular breaks during the event.</p>
+      </div>
+      <div class="box">
+        <div class="top-box">
+          <div class="image3"><img src="images/botson_poster.png" alt="Image" width="330px" height="330px"></div>
         </div>
-
-        <button class="accordion">Who teaches how to make the bot?</button>
-        <div class="panel">
-          <p>The Instructors are members of the IET Technicals Department, headed by Department Leader Kevin Karia.</p>
+        <div class="bottom-box">
+          <h3>Botson 8.0</h3>
+          <br>
+          <p>21/22 Oct | MPSTME</p>
+          <button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Closed</button>
         </div>
-
-        <button class="accordion">Do I need to know coding to participate in BOTSON?</button>
-        <div class="panel">
-          <p>No. The necessary basics will be taught on the first day of the event.</p>
+      </div>
+      
+      <div class="box">
+        <div class="top-box">
+          <div class="image3"><img src="images/c++workshop.jpeg" alt="Image"></div>
         </div>
-
-        <button class="accordion">How do we make the bot?</button>
-        <div class="panel">
-          <p>In the beginning of the event, the kits are distributed by the instructors, consisting of all the relevant items/tools/equipment required to code for and assemble the bot. Post a simple coding session, all equipment is tested on the first day. On the second day, the main bot is built as per the step-by-step directives given by the instructor with thorough testing conducted at each step.</p>
+        <div class="bottom-box">
+          <h3>C++ Workshop</h3>
+          <br>
+          <p>19 Sept | MPSTME</p>
+          <button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Closed</button>
         </div>
-
-        <button class="accordion">Do we learn about the parts which are used in making the circuit in BOTSON?</button>
-        <div class="panel">
-          <p>Yes. The theory of each part is taught on the first day of the event. Moreover, A comprehensive study guide is provided.</p>
+      </div>
+      <!-- Second Column -->
+      <div class="container-event">
+        <div class="box">
+          <div class="top-box">
+            <div class="image3"><img src="images/botson.jpeg" alt="Image"></div>
+          </div>
+          <div class="bottom-box">
+            <h3>Botson 7.0</h3>
+            <br>
+            <p>15/16 Oct | MPSTME</p>
+            <button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Closed</button>
+          </div>
         </div>
-
-        <button class="accordion">What are the prerequisites needed to participate in BOTSON?</button>
-        <div class="panel">
-          <p>Participants need not fulfil any prerequisites at the event, besides bringing a fully charged laptop that is compatible with and can support the Arduino IDE. A laptop is not compulsory, but recommended in order to learn to code the bot effectively.</p>
+        <div class="box">
+          <div class="top-box">
+            <div class="image3"><img src="images/ietalks.jpeg" alt="Image"></div>
+          </div>
+          <div class="bottom-box">
+            <h3>IETalks</h3>
+            <br>
+            <p>6 feb | MS TEAMS</p>
+            <button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Closed</button>
+          </div>
         </div>
-
-        <button class="accordion">What are the prerequisites needed to participate in BOTSON?</button>
-        <div class="panel">
-          <p>There are presently no pre-requisites needed for BOTSON, as all basics are taught in the event, step-by-step to ensure no one is left behind. </p>
+        <div class="box">
+          <div class="top-box">
+            <div class="image3"><img src="images/hackncode.jpeg" alt="Image"></div>
+          </div>
+          <div class="bottom-box">
+            <h3>Hack n Code</h3>
+            <br>
+            <p>26/27 Mar | MPSTME</p>
+            <button class="about-button" style="font-family: 'Nunito'; font-family: 10px;">Registrations Closed</button>
+          </div>
         </div>
+      </div></center>
+  </section>
+  <center>
+    <p style="font-size: 30px; font-family: 'Nunito'; color: #9C67AB;">Stay Tuned For More Events...</p>
+  </center>
+  <br>
+  <br>
+  <!-- Register Section  -->
+  <section class="about" id="resgister1">
+    <div class="main">
+      <img src="images/iet_logo.png" alt="">
+      <div class="all-text">
+        <h4>Register Now !!</h4>
+        <h1>Join the Ranks of the Elite Community!</h1>
+        <h3>Our Departments</h3>
+        <ul class="dept-list">
+          <li>Technical</li>
+          <li>Logistics</li>
+          <li>Content Writing</li>
+          <li>Social Media and Creatives</li>
+          <li>Public Relations</li>
+          <li>Marketing</li>
+          <li>Photography</li>
+        </ul>
+        <div class="btn1">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScShVoR9Ctoq3Z4-Lq8q5Jgy7ywAIr5SEHETHQhiKtC2_gWLg/closedform"
+            target="_blank">
+            <button class="button2">REGISTER NOW</button>
+          </a>
 
-        <button class="accordion">Can we use our own equipment?</button>
-        <div class="panel">
-          <p>No. The IET MPSTME specially creates a comprehensive kit containing all necessary equipment beforehand that has been checked for compatibility and quality. The kit also contains spares for any emergencies that may occur by mishandling or breakage, or any manufacturing defect.</p>
         </div>
-
-        <button class="accordion">What if the parts in the kit are defective when given to us?</button>
-        <div class="panel">
-          <p>All parts are checked thoroughly before distribution. There are only two parts in the kit with a chance of being defective. The bluetooth module and the motor driver and there will be an extra set of those parts inside the kit. Spares will be given for LEDs and wires. The instructors also possess spares in case of any accidents.</p>
-        </div>
-
-        <button class="accordion">What if I accidentally break a part in the kit?</button>
-        <div class="panel">
-          <p>Spares will be given for wires.There will also be an extra bluetooth module and motor driver. The instructors will also keep spares of equipment in case of any accidents or emergencies.</p>
-        </div>
-
-        <button class="accordion">What payment methods are available to pay for BOTSON?</button>
-        <div class="panel">
-          <p>The Following methods of payment are available:
-Gpay/ RTGS/NEFT Please check the registration form for clarification and details on the same.</p>
-        </div>
-
-        <button class="accordion">If I face any difficulty while making the bot, what kind of guidance is available?</button>
-        <div class="panel">
-          <p>A team of instructors from the Technical Department are available at all times to clarify any problems that arise during the event.</p>
-        </div>
-
-        <button class="accordion">Is the bot functional after making it?</button>
-        <div class="panel">
-          <p>There won't be any fun if it's not working. So YES! The bot is ensured to be fully functional by the end of the event, and any issues arising will be personally be handled by the Technical Team to ensure functionality.</p>
-        </div>
-
-        <button class="accordion">Is a certificate granted by the IET for the event?</button>
-        <div class="panel">
-          <p>A soft copy of the certificate issued by IET MPSTME is sent to you via email as per the email registered in the registration form post the event.</p>
-        </div>
-
-        <button class="accordion">What are the advantages of participating in Botson?</button>
-        <div class="panel">
-          <p>Following are the benefits you shall reap should you choose to be a part of BOTSON: The certificate of participation awarded by the London-based Institution of Engineering and Technology in a prestigious event such as this adds considerable weight to your CV/resume. Your bot can be reprogrammed and repurposed for further use/projects in later years. Your participation also adds to your experience of bot development and programming.</p>
-        </div>
-
-        <button class="accordion">Due to the COVID-19 pandemic, are there any precautions to be taken?</button>
-        <div class="panel">
-          <p>No pre-emptive precautions are needed as such, however, masks will be distributed before the event to be worn throughout as per guidelines by the Indian Government.</p>
-        </div>
-
-        <button class="accordion">Who can participate?</button>
-        <div class="panel">
-          <p>Only students in MPSTME and SBMP are permitted in the event.</p>
-        </div>
-
-        <button class="accordion">Still have questions?</button>
-        <div class="panel">
-          <p>Get the personalised experience. Connect with us by heading over to the Contact Us page to satisfy your every bot-related curiosity.</p>
-        </div>
-
-      </center>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery -->
+  <section class="gallery">
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left" style="z-index: 99; background-color: #4F1B59; color: white;"></i>
+      <div class="carousel">
+        <img src="images/photo1.jpeg" alt="img" draggable="false">
+        <img src="images/photo2.jpeg" alt="img" draggable="false">
+        <img src="images/photo3.jpeg" alt="img" draggable="false">
+        <img src="images/photo4.jpeg" alt="img" draggable="false">
+        <img src="images/photo5.jpeg" alt="img" draggable="false">
+        <img src="images/photo6.jpeg" alt="img" draggable="false">
+        <img src="images/photo7.jpeg" alt="img" draggable="false">
+        <img src="images/photo8.jpeg" alt="img" draggable="false">
+        <img src="images/photo9.jpeg" alt="img" draggable="false">
+        <img src="images/photo10.jpeg" alt="img" draggable="false">
+      </div>
+      <i id="right" class="fa-solid fa-angle-right" style="background-color: #4F1B59; color: white;"></i>
     </div>
 
-    
-</body>
+  </section>
+  <!-- Contact Us Page -->
+  <div id="contactpage">
+    <div class="background">
+      <div class="container2">
+        <div class="screen">
+          <div class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
+            </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
+          </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>LETS</span>
+                <span>CONNECT!!</span>
+              </div>
+              <div class="app-contact">CONTACT INFO : +91 9137023659 <br>
+                ADDRESS : Mukesh Patel School Of Technology Management & Engineering, JVPD Scheme, Vile Parle (W),
+                Mumbai, Maharashtra - 400056 <br>EMAIL : iet.mpstme.info@gmail.com</div>
+            </div>
+            <div class="screen-body-item">
+              <form action="https://formspree.io/f/xvojpbjl" method="POST">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="NAME" name="Name" required>
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL" name="Email Id" required>
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="CONTACT NO" name="Contact Number" required>
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE" required name="Message">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <center><button class="app-form-button">SUBMIT</button></center>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</html>
+    <!-- Modal -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Welcome to IET MPSTME</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Welcome to our website! Explore the world of IET MPSTME.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled',$(this).scrollTop()>680);
+      });
+      
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('#welcomeModal').modal('show');
+      });
+      </script>
+    <script>
+
+      document.querySelector('.scrolldown').addEventListener('click', function () {
+        const aboutSection = document.querySelector('#aboutpage');
+        aboutSection.scrollIntoView({behavior: 'smooth'});
+      });
+      document.querySelector('.button1').addEventListener('click', function () {
+        const aboutSection = document.querySelector('.eventspage');
+        aboutSection.scrollIntoView({behavior: 'smooth'});
+      });
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+</body>
+<div class="footer-basic">
+  <footer>
+    <div class="social"><a href="https://instagram.com/ietmpstme?igshid=MzRlODBiNWFlZA=="><i
+          class="fab fa-instagram"></i></a><a href="https://m.facebook.com/ietmpstme/"><i
+          class="fab fa-facebook"></i></a><a href="https://www.linkedin.com/company/iet-mpstme/"><i
+          class="fab fa-linkedin-in"></i></a><a href="https://youtube.com/@ietmpstmeoncampus3208"><i
+          class="fab fa-youtube"></i></a></div>
+    <p class="copyright">Made with &#x2764; by IET Tech Team (MPSTME)</p>
+  </footer>
+</div>
+
+
+</html> 
